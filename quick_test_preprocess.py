@@ -18,9 +18,9 @@ from scipy import ndimage
 class QuickTestPreprocessor:
     """Quick test preprocessing for first N patients"""
 
-    def __init__(self, num_patients=50,
-                 input_base="/Volumes/BACKUP/NACC_Matched_Pairs",
-                 output_base="/Volumes/BACKUPh/NACC_Test_Preprocessed",
+    def __init__(self, num_patients=200,
+                 input_base="/Volumes/New Volume/NACC_Matched_Pairs",
+                 output_base="/Volumes/New Volume/NACC_Test_Preprocessed_NEW",
                  log_file="quick_test_log.txt"):
 
         self.num_patients = num_patients
