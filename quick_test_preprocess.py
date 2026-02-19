@@ -20,7 +20,7 @@ class QuickTestPreprocessor:
 
     def __init__(self, num_patients=50,
                  input_base="/Volumes/BACKUP/NACC_Matched_Pairs",
-                 output_base="/Volumes/BACKUP/NACC_Test_Preprocessed",
+                 output_base="/Volumes/BACKUPh/NACC_Test_Preprocessed",
                  log_file="quick_test_log.txt"):
 
         self.num_patients = num_patients
