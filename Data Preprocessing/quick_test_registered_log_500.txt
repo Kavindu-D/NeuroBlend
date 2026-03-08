@@ -1,0 +1,1606 @@
+[2026-03-05 08:10:36] INFO: ==========================================================================================
+[2026-03-05 08:10:36] INFO: QUICK TEST PREPROCESSING PIPELINE (WITH REGISTRATION)
+[2026-03-05 08:10:36] INFO: ==========================================================================================
+[2026-03-05 08:10:36] INFO: Processing first 200 patients
+[2026-03-05 08:10:36] INFO: Target shape: (160, 192, 160)
+[2026-03-05 08:10:36] INFO: Start Time: 2026-03-05 08:10:36
+[2026-03-05 08:10:36] INFO: 
+[2026-03-05 08:10:43] INFO: Total patients available: 501
+[2026-03-05 08:10:43] INFO: Processing: 200 patients
+[2026-03-05 08:10:43] INFO: Output directory: D:\NACC_Matched_Pairs_500_Preprocessed
+[2026-03-05 08:10:43] INFO: 
+[2026-03-05 08:10:43] INFO: ==========================================================================================
+[2026-03-05 08:10:43] INFO: STEP 1/3: EXTRACTING ZIP FILES
+[2026-03-05 08:10:43] INFO: ==========================================================================================
+[2026-03-05 08:10:43] INFO: 
+[2026-03-05 08:10:44] INFO: [10/200] Extraction: 0 extracted
+[2026-03-05 08:10:44] INFO: [20/200] Extraction: 0 extracted
+[2026-03-05 08:10:45] INFO: [30/200] Extraction: 0 extracted
+[2026-03-05 08:10:45] INFO: [40/200] Extraction: 0 extracted
+[2026-03-05 08:10:46] INFO: [50/200] Extraction: 0 extracted
+[2026-03-05 08:10:46] INFO: [60/200] Extraction: 0 extracted
+[2026-03-05 08:10:47] INFO: [70/200] Extraction: 0 extracted
+[2026-03-05 08:10:47] INFO: [80/200] Extraction: 0 extracted
+[2026-03-05 08:10:48] INFO: [90/200] Extraction: 0 extracted
+[2026-03-05 08:10:48] INFO: [100/200] Extraction: 0 extracted
+[2026-03-05 08:10:49] INFO: [110/200] Extraction: 0 extracted
+[2026-03-05 08:10:49] INFO: [120/200] Extraction: 0 extracted
+[2026-03-05 08:10:50] INFO: [130/200] Extraction: 0 extracted
+[2026-03-05 08:10:50] INFO: [140/200] Extraction: 0 extracted
+[2026-03-05 08:10:51] INFO: [150/200] Extraction: 0 extracted
+[2026-03-05 08:10:51] INFO: [160/200] Extraction: 0 extracted
+[2026-03-05 08:10:52] INFO: [170/200] Extraction: 0 extracted
+[2026-03-05 08:10:52] INFO: [180/200] Extraction: 0 extracted
+[2026-03-05 08:10:52] INFO: [190/200] Extraction: 0 extracted
+[2026-03-05 08:10:53] INFO: [200/200] Extraction: 0 extracted
+[2026-03-05 08:10:53] INFO: Step 1 complete: 0 extracted, 1003 resource forks skipped
+[2026-03-05 08:10:53] INFO: 
+[2026-03-05 08:10:53] INFO: ==========================================================================================
+[2026-03-05 08:10:53] INFO: STEP 2/3: CONVERTING DICOM TO NIFTI
+[2026-03-05 08:10:53] INFO: ==========================================================================================
+[2026-03-05 08:10:53] INFO: 
+[2026-03-05 08:10:53] INFO: Using dcm2niix: dcm2niix
+[2026-03-05 08:10:53] INFO: Compression will be faster with C:\Users\kdesh\AppData\Local\Programs\Python\Python311\Lib\site-packages\dcm2niix\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20250505  MSC1943  (64-bit Windows)
+v1.0.20250505
+[2026-03-05 08:11:01] INFO: [10/200] Conversion: 49 NIfTI files
+[2026-03-05 08:11:11] INFO: [20/200] Conversion: 100 NIfTI files
+[2026-03-05 08:11:18] INFO: [30/200] Conversion: 135 NIfTI files
+[2026-03-05 08:11:25] INFO: [40/200] Conversion: 169 NIfTI files
+[2026-03-05 08:11:32] INFO: [50/200] Conversion: 211 NIfTI files
+[2026-03-05 08:11:37] INFO: [60/200] Conversion: 254 NIfTI files
+[2026-03-05 08:11:42] INFO: [70/200] Conversion: 301 NIfTI files
+[2026-03-05 08:11:49] INFO: [80/200] Conversion: 349 NIfTI files
+[2026-03-05 08:11:59] INFO: [90/200] Conversion: 430 NIfTI files
+[2026-03-05 08:12:05] INFO: [100/200] Conversion: 470 NIfTI files
+[2026-03-05 08:12:12] INFO: [110/200] Conversion: 516 NIfTI files
+[2026-03-05 08:12:19] INFO: [120/200] Conversion: 562 NIfTI files
+[2026-03-05 08:12:35] INFO: ==========================================================================================
+[2026-03-05 08:12:35] INFO: QUICK TEST PREPROCESSING PIPELINE (WITH REGISTRATION)
+[2026-03-05 08:12:35] INFO: ==========================================================================================
+[2026-03-05 08:12:35] INFO: Processing first 500 patients
+[2026-03-05 08:12:35] INFO: Target shape: (160, 192, 160)
+[2026-03-05 08:12:35] INFO: Start Time: 2026-03-05 08:12:35
+[2026-03-05 08:12:35] INFO: 
+[2026-03-05 08:12:35] INFO: Total patients available: 501
+[2026-03-05 08:12:35] INFO: Processing: 500 patients
+[2026-03-05 08:12:35] INFO: Output directory: D:\NACC_Matched_Pairs_500_Preprocessed
+[2026-03-05 08:12:35] INFO: 
+[2026-03-05 08:12:35] INFO: ==========================================================================================
+[2026-03-05 08:12:35] INFO: STEP 1/3: EXTRACTING ZIP FILES
+[2026-03-05 08:12:35] INFO: ==========================================================================================
+[2026-03-05 08:12:35] INFO: 
+[2026-03-05 08:12:35] INFO: [10/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [20/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [30/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [40/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [50/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [60/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [70/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [80/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [90/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [100/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [110/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [120/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [130/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [140/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [150/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [160/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [170/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [180/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [190/500] Extraction: 0 extracted
+[2026-03-05 08:12:35] INFO: [200/500] Extraction: 0 extracted
+[2026-03-05 08:14:55] INFO: [210/500] Extraction: 50 extracted
+[2026-03-05 08:17:05] INFO: [220/500] Extraction: 107 extracted
+[2026-03-05 08:19:10] INFO: [230/500] Extraction: 155 extracted
+[2026-03-05 08:22:04] INFO: [240/500] Extraction: 200 extracted
+[2026-03-05 08:26:01] INFO: [250/500] Extraction: 244 extracted
+[2026-03-05 08:27:19] INFO: [260/500] Extraction: 283 extracted
+[2026-03-05 08:31:13] INFO: [270/500] Extraction: 345 extracted
+[2026-03-05 08:35:08] INFO: [280/500] Extraction: 421 extracted
+[2026-03-05 08:37:54] INFO: [290/500] Extraction: 471 extracted
+[2026-03-05 08:41:14] INFO: [300/500] Extraction: 513 extracted
+[2026-03-05 08:42:43] INFO: [310/500] Extraction: 551 extracted
+[2026-03-05 08:46:16] INFO: [320/500] Extraction: 591 extracted
+[2026-03-05 08:48:38] INFO: [330/500] Extraction: 633 extracted
+[2026-03-05 08:50:00] INFO: [340/500] Extraction: 673 extracted
+[2026-03-05 08:53:23] INFO: [350/500] Extraction: 731 extracted
+[2026-03-05 08:55:22] INFO: [360/500] Extraction: 786 extracted
+[2026-03-05 08:58:03] INFO: [370/500] Extraction: 824 extracted
+[2026-03-05 09:02:19] INFO: [380/500] Extraction: 875 extracted
+[2026-03-05 09:06:16] INFO: [390/500] Extraction: 930 extracted
+[2026-03-05 09:08:43] INFO: [400/500] Extraction: 971 extracted
+[2026-03-05 09:14:45] INFO: [410/500] Extraction: 1039 extracted
+[2026-03-05 09:17:41] INFO: [420/500] Extraction: 1078 extracted
+[2026-03-05 09:19:52] INFO: [430/500] Extraction: 1115 extracted
+[2026-03-05 09:23:48] INFO: [440/500] Extraction: 1182 extracted
+[2026-03-05 09:28:51] INFO: [450/500] Extraction: 1235 extracted
+[2026-03-05 09:30:38] INFO: ==========================================================================================
+[2026-03-05 09:30:38] INFO: MRI-PET PREPROCESSING PIPELINE (IMPROVED v2)
+[2026-03-05 09:30:38] INFO: ==========================================================================================
+[2026-03-05 09:30:38] INFO: Processing first 500 patients
+[2026-03-05 09:30:38] INFO: Target shape:   (160, 192, 160)
+[2026-03-05 09:30:38] INFO: Tracer filter:  ALL (set TRACER_FILTER for single-tracer training)
+[2026-03-05 09:30:38] INFO: Weak-reg threshold: -0.05
+[2026-03-05 09:30:38] INFO: Start Time: 2026-03-05 09:30:38
+[2026-03-05 09:30:38] INFO: 
+[2026-03-05 09:30:39] INFO: Total patients available: 501
+[2026-03-05 09:30:39] INFO: Processing: 500 patients
+[2026-03-05 09:30:39] INFO: Output directory: D:\NACC_Matched_Pairs_500_Preprocessed
+[2026-03-05 09:30:39] INFO: 
+[2026-03-05 09:30:39] INFO: ==========================================================================================
+[2026-03-05 09:30:39] INFO: STEP 1/3: EXTRACTING ZIP FILES
+[2026-03-05 09:30:39] INFO: ==========================================================================================
+[2026-03-05 09:30:39] INFO: 
+[2026-03-05 09:30:39] INFO: [10/500] Extraction: 0 extracted
+[2026-03-05 09:30:39] INFO: [20/500] Extraction: 0 extracted
+[2026-03-05 09:30:39] INFO: [30/500] Extraction: 0 extracted
+[2026-03-05 09:30:40] INFO: [40/500] Extraction: 0 extracted
+[2026-03-05 09:30:40] INFO: [50/500] Extraction: 0 extracted
+[2026-03-05 09:30:40] INFO: [60/500] Extraction: 0 extracted
+[2026-03-05 09:30:40] INFO: [70/500] Extraction: 0 extracted
+[2026-03-05 09:30:40] INFO: [80/500] Extraction: 0 extracted
+[2026-03-05 09:30:40] INFO: [90/500] Extraction: 0 extracted
+[2026-03-05 09:30:40] INFO: [100/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [110/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [120/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [130/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [140/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [150/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [160/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [170/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [180/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [190/500] Extraction: 0 extracted
+[2026-03-05 09:30:41] INFO: [200/500] Extraction: 0 extracted
+[2026-03-05 09:30:42] INFO: [210/500] Extraction: 0 extracted
+[2026-03-05 09:30:42] INFO: [220/500] Extraction: 0 extracted
+[2026-03-05 09:30:42] INFO: [230/500] Extraction: 0 extracted
+[2026-03-05 09:30:42] INFO: [240/500] Extraction: 0 extracted
+[2026-03-05 09:30:43] INFO: [250/500] Extraction: 0 extracted
+[2026-03-05 09:30:43] INFO: [260/500] Extraction: 0 extracted
+[2026-03-05 09:30:43] INFO: [270/500] Extraction: 0 extracted
+[2026-03-05 09:30:44] INFO: [280/500] Extraction: 0 extracted
+[2026-03-05 09:30:44] INFO: [290/500] Extraction: 0 extracted
+[2026-03-05 09:30:44] INFO: [300/500] Extraction: 0 extracted
+[2026-03-05 09:30:46] INFO: [310/500] Extraction: 0 extracted
+[2026-03-05 09:30:46] INFO: [320/500] Extraction: 0 extracted
+[2026-03-05 09:30:46] INFO: [330/500] Extraction: 0 extracted
+[2026-03-05 09:30:47] INFO: [340/500] Extraction: 0 extracted
+[2026-03-05 09:30:47] INFO: [350/500] Extraction: 0 extracted
+[2026-03-05 09:30:49] INFO: [360/500] Extraction: 0 extracted
+[2026-03-05 09:30:50] INFO: [370/500] Extraction: 0 extracted
+[2026-03-05 09:30:52] INFO: [380/500] Extraction: 0 extracted
+[2026-03-05 09:30:55] INFO: [390/500] Extraction: 0 extracted
+[2026-03-05 09:30:55] INFO: [400/500] Extraction: 0 extracted
+[2026-03-05 09:30:55] INFO: [410/500] Extraction: 0 extracted
+[2026-03-05 09:30:56] INFO: [420/500] Extraction: 0 extracted
+[2026-03-05 09:30:56] INFO: [430/500] Extraction: 0 extracted
+[2026-03-05 09:30:56] INFO: [440/500] Extraction: 0 extracted
+[2026-03-05 09:30:56] INFO: [450/500] Extraction: 0 extracted
+[2026-03-05 09:32:42] INFO: [460/500] Extraction: 26 extracted
+[2026-03-05 09:36:14] INFO: [470/500] Extraction: 76 extracted
+[2026-03-05 09:41:00] INFO: [480/500] Extraction: 143 extracted
+[2026-03-05 09:44:54] INFO: [490/500] Extraction: 196 extracted
+[2026-03-05 09:48:17] INFO: [500/500] Extraction: 234 extracted
+[2026-03-05 09:48:17] INFO: Step 1 complete: 234 extracted, 2513 resource forks skipped
+[2026-03-05 09:48:17] INFO: 
+[2026-03-05 09:48:17] INFO: ==========================================================================================
+[2026-03-05 09:48:17] INFO: STEP 2/3: CONVERTING DICOM TO NIFTI
+[2026-03-05 09:48:17] INFO: ==========================================================================================
+[2026-03-05 09:48:17] INFO: 
+[2026-03-05 09:48:17] INFO: Using dcm2niix: dcm2niix
+[2026-03-05 09:48:17] INFO: Compression will be faster with C:\Users\kdesh\AppData\Local\Programs\Python\Python311\Lib\site-packages\dcm2niix\pigz.exe in the same folder as the executable
+Chris Rorden's dcm2niiX version v1.0.20250505  MSC1943  (64-bit Windows)
+v1.0.20250505
+[2026-03-05 09:48:30] INFO: [10/500] Conversion: 49 NIfTI files
+[2026-03-05 09:48:39] INFO: [20/500] Conversion: 100 NIfTI files
+[2026-03-05 09:48:45] INFO: [30/500] Conversion: 135 NIfTI files
+[2026-03-05 09:48:51] INFO: [40/500] Conversion: 169 NIfTI files
+[2026-03-05 09:48:58] INFO: [50/500] Conversion: 211 NIfTI files
+[2026-03-05 09:49:02] INFO: [60/500] Conversion: 254 NIfTI files
+[2026-03-05 09:49:06] INFO: [70/500] Conversion: 301 NIfTI files
+[2026-03-05 09:49:12] INFO: [80/500] Conversion: 349 NIfTI files
+[2026-03-05 09:49:27] INFO: [90/500] Conversion: 430 NIfTI files
+[2026-03-05 09:49:34] INFO: [100/500] Conversion: 470 NIfTI files
+[2026-03-05 09:49:42] INFO: [110/500] Conversion: 516 NIfTI files
+[2026-03-05 09:49:48] INFO: [120/500] Conversion: 562 NIfTI files
+[2026-03-05 09:49:59] INFO: [130/500] Conversion: 623 NIfTI files
+[2026-03-05 09:50:11] INFO: [140/500] Conversion: 707 NIfTI files
+[2026-03-05 09:50:22] INFO: [150/500] Conversion: 774 NIfTI files
+[2026-03-05 09:50:30] INFO: [160/500] Conversion: 828 NIfTI files
+[2026-03-05 09:50:37] INFO: [170/500] Conversion: 881 NIfTI files
+[2026-03-05 09:50:44] INFO: [180/500] Conversion: 921 NIfTI files
+[2026-03-05 09:50:51] INFO: [190/500] Conversion: 956 NIfTI files
+[2026-03-05 09:50:57] INFO: [200/500] Conversion: 1003 NIfTI files
+[2026-03-05 09:57:22] INFO: [210/500] Conversion: 1053 NIfTI files
+[2026-03-05 10:03:08] INFO: [220/500] Conversion: 1110 NIfTI files
+[2026-03-05 10:07:57] INFO: [230/500] Conversion: 1158 NIfTI files
+[2026-03-05 10:13:00] INFO: [240/500] Conversion: 1203 NIfTI files
+[2026-03-05 10:20:23] INFO: [250/500] Conversion: 1247 NIfTI files
+[2026-03-05 10:24:45] INFO: [260/500] Conversion: 1286 NIfTI files
+[2026-03-05 10:31:06] INFO: [270/500] Conversion: 1348 NIfTI files
+[2026-03-05 10:37:53] INFO: [280/500] Conversion: 1424 NIfTI files
+[2026-03-05 10:44:20] INFO: [290/500] Conversion: 1474 NIfTI files
+[2026-03-05 10:50:28] INFO: [300/500] Conversion: 1516 NIfTI files
+[2026-03-05 10:53:39] INFO: [310/500] Conversion: 1554 NIfTI files
+[2026-03-05 11:01:41] INFO: [320/500] Conversion: 1594 NIfTI files
+[2026-03-05 11:05:37] INFO: [330/500] Conversion: 1636 NIfTI files
+[2026-03-05 11:07:56] INFO: [340/500] Conversion: 1676 NIfTI files
+[2026-03-05 11:14:14] INFO: [350/500] Conversion: 1734 NIfTI files
+[2026-03-05 11:18:00] INFO: [360/500] Conversion: 1789 NIfTI files
+[2026-03-05 11:22:04] INFO: [370/500] Conversion: 1827 NIfTI files
+[2026-03-05 11:28:18] INFO: [380/500] Conversion: 1878 NIfTI files
+[2026-03-05 11:34:04] INFO: [390/500] Conversion: 1933 NIfTI files
+[2026-03-05 11:38:04] INFO: [400/500] Conversion: 1974 NIfTI files
+[2026-03-05 11:47:03] INFO: [410/500] Conversion: 2042 NIfTI files
+[2026-03-05 11:51:39] INFO: [420/500] Conversion: 2081 NIfTI files
+[2026-03-05 11:54:54] INFO: [430/500] Conversion: 2118 NIfTI files
+[2026-03-05 12:00:42] INFO: [440/500] Conversion: 2185 NIfTI files
+[2026-03-05 12:08:36] INFO: [450/500] Conversion: 2238 NIfTI files
+[2026-03-05 12:20:07] INFO: [460/500] Conversion: 2305 NIfTI files
+[2026-03-05 12:29:32] INFO: [470/500] Conversion: 2355 NIfTI files
+[2026-03-05 12:36:27] INFO: ERROR converting NACC201415/PET/SCAN_NACC201415_I11105280__PIB_PRR_AC_Images: Command '['dcm2niix', '-z', 'y', '-f', 'SCAN_NACC201415_I11105280__PIB_PRR_AC_Images', '-o', 'D:\\NACC_Matched_Pairs\\NACC201415\\PET\\SCAN_NACC201415_I11105280__PIB_PRR_AC_Images', 'D:\\NACC_Matched_Pairs\\NACC201415\\PET\\SCAN_NACC201415_I11105280__PIB_PRR_AC_Images']' timed out after 120 seconds
+[2026-03-05 12:40:57] INFO: [480/500] Conversion: 2421 NIfTI files
+[2026-03-05 12:45:19] INFO: [490/500] Conversion: 2474 NIfTI files
+[2026-03-05 12:51:54] INFO: [500/500] Conversion: 2512 NIfTI files
+[2026-03-05 12:51:54] INFO: Step 2 complete: 2512 NIfTI files
+[2026-03-05 12:51:54] INFO: 
+[2026-03-05 12:51:54] INFO: ==========================================================================================
+[2026-03-05 12:51:54] INFO: STEP 3/3: SCAN SELECTION + N4 + REGISTRATION + PREPROCESSING
+[2026-03-05 12:51:54] INFO: ==========================================================================================
+[2026-03-05 12:51:54] INFO: 
+[2026-03-05 12:51:54] INFO:   [1/500] NACC000133:
+[2026-03-05 12:51:54] INFO:     MRI selected (MPRAGE): SCAN_NACC000133_I11226236_MPRAGE.nii
+[2026-03-05 12:51:54] INFO:     PET selected (largest, tracer=None): SCAN_NACC000133_I11305460_[BR-DY_CTAC_JP]_UH_CADRC_BRAIN.nii
+[2026-03-05 12:51:54] INFO:     Tracer group: None
+[2026-03-05 12:51:55] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 12:55:26] INFO:     N4 bias field correction applied
+[2026-03-05 12:55:26] INFO:     PET shape: (128, 128, 90)
+[2026-03-05 12:55:41] INFO:     Registration converged: metric = -0.509262
+[2026-03-05 12:55:45] INFO:     Brain mask: 4,738,839 voxels
+[2026-03-05 12:55:53] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.5093
+[2026-03-05 12:55:53] INFO:   [2/500] NACC000314:
+[2026-03-05 12:55:54] INFO:     MRI selected (MPRAGE): SCAN_NACC000314_I10366652_Head_Accelerated_Sagittal_MPRAGE_MSV21_nc_S13_DIS3D.nii
+[2026-03-05 12:55:55] INFO:     PET selected (AMYLOID): SCAN_NACC000314_I10391946_AMYLOID_FLORBETABEN_90-110_DIXON_PRR_AC_Images.nii
+[2026-03-05 12:55:55] INFO:     Tracer group: AMYLOID
+[2026-03-05 12:55:55] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:00:28] INFO:     N4 bias field correction applied
+[2026-03-05 13:00:30] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 13:00:52] INFO:     Registration converged: metric = -0.443444
+[2026-03-05 13:00:53] INFO:     Brain mask: 4,707,655 voxels
+[2026-03-05 13:00:57] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4434
+[2026-03-05 13:00:57] INFO:   [3/500] NACC000441:
+[2026-03-05 13:00:57] INFO:     MRI selected (MPRAGE): SCAN_NACC000441_I10665620_MSV21_MSV21_MPRAGE.nii
+[2026-03-05 13:00:57] INFO:     PET selected (AMYLOID): SCAN_NACC000441_I10942683_MSV21_PET_ADNI_florbetapir_4x5min.nii
+[2026-03-05 13:00:57] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:00:58] INFO:     MRI shape: (192, 256, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:03:54] INFO:     N4 bias field correction applied
+[2026-03-05 13:04:02] INFO:     PET shape: (400, 400, 109)
+[2026-03-05 13:04:25] INFO:     Registration converged: metric = -0.511348
+[2026-03-05 13:04:27] INFO:     Brain mask: 4,231,530 voxels
+[2026-03-05 13:04:31] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.5113
+[2026-03-05 13:04:31] INFO:   [4/500] NACC000806:
+[2026-03-05 13:04:32] INFO:     MRI selected (MPRAGE): SCAN_NACC000806_I10360302_Head_Accelerated_Sagittal_MPRAGE_MSV21.nii
+[2026-03-05 13:04:32] INFO:     PET selected (AMYLOID): SCAN_NACC000806_I10312383_348210160_20230125-LM-00-OP_000_000.v_4i_21s_Amyloid_Florbetaben.nii
+[2026-03-05 13:04:32] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:04:32] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:08:27] INFO:     N4 bias field correction applied
+[2026-03-05 13:08:35] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 13:09:02] INFO:     Registration converged: metric = -0.195668
+[2026-03-05 13:09:03] INFO:     Brain mask: 4,183,875 voxels
+[2026-03-05 13:09:07] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.1957
+[2026-03-05 13:09:07] INFO:   [5/500] NACC000868:
+[2026-03-05 13:09:08] INFO:     MRI selected (MPRAGE): SCAN_NACC000868_I10316460_Accelerated_Sagittal_MPRAGE.nii
+[2026-03-05 13:09:08] INFO:     PET selected (FDG): SCAN_NACC000868_I10946197_FDG.nii
+[2026-03-05 13:09:08] INFO:     Tracer group: FDG
+[2026-03-05 13:09:08] INFO:     MRI shape: (176, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:13:05] INFO:     N4 bias field correction applied
+[2026-03-05 13:13:11] INFO:     PET shape: (192, 192, 47)
+[2026-03-05 13:13:30] INFO:     Registration converged: metric = -0.593028
+[2026-03-05 13:13:31] INFO:     Brain mask: 3,535,216 voxels
+[2026-03-05 13:13:35] INFO:     OK — shape (160, 192, 160), tracer=FDG, reg_metric=-0.5930
+[2026-03-05 13:13:35] INFO:   [6/500] NACC001129:
+[2026-03-05 13:13:35] INFO:     MRI selected (T1): SCAN_NACC001129_I10316237_Accelerated_Sagittal_IR-FSPGR_SCAN_.nii
+[2026-03-05 13:13:35] INFO:     PET selected (largest, tracer=None): SCAN_NACC001129_I10940999_SCAN_dynamic.nii
+[2026-03-05 13:13:35] INFO:     Tracer group: None
+[2026-03-05 13:13:36] INFO:     MRI shape: (196, 256, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:15:28] INFO:     N4 bias field correction applied
+[2026-03-05 13:15:32] INFO:     PET shape: (192, 192, 89)
+[2026-03-05 13:15:49] INFO:     Registration converged: metric = -0.586759
+[2026-03-05 13:15:51] INFO:     Brain mask: 3,670,762 voxels
+[2026-03-05 13:15:56] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.5868
+[2026-03-05 13:15:56] INFO:   [7/500] NACC001279:
+[2026-03-05 13:15:56] INFO:     MRI selected (MPRAGE): SCAN_NACC001279_I10398881_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 13:15:57] INFO:     PET selected (largest, tracer=None): SCAN_NACC001279_I10458979_Short_no_filter.nii
+[2026-03-05 13:15:57] INFO:     Tracer group: None
+[2026-03-05 13:15:57] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:19:03] INFO:     N4 bias field correction applied
+[2026-03-05 13:19:14] INFO:     PET shape: (440, 440, 159)
+[2026-03-05 13:19:49] INFO:     Registration converged: metric = -0.528310
+[2026-03-05 13:19:52] INFO:     Brain mask: 3,449,824 voxels
+[2026-03-05 13:20:01] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.5283
+[2026-03-05 13:20:01] INFO:   [8/500] NACC001978:
+[2026-03-05 13:20:01] INFO:     MRI selected (MPRAGE): SCAN_NACC001978_I10434764_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 13:20:01] INFO:     PET selected (largest, tracer=None): SCAN_NACC001978_I10662832_Short_no_filter.nii
+[2026-03-05 13:20:01] INFO:     Tracer group: None
+[2026-03-05 13:20:01] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:23:12] INFO:     N4 bias field correction applied
+[2026-03-05 13:23:22] INFO:     PET shape: (440, 440, 159)
+[2026-03-05 13:23:54] INFO:     Registration converged: metric = -0.522845
+[2026-03-05 13:23:55] INFO:     Brain mask: 3,228,578 voxels
+[2026-03-05 13:23:58] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.5228
+[2026-03-05 13:23:58] INFO:   [9/500] NACC002424:
+[2026-03-05 13:23:59] INFO:     MRI selected (MPRAGE): SCAN_NACC002424_I10316861_MPRAGE_GRAPPA2_3D_dist_cor.nii
+[2026-03-05 13:24:00] INFO:     PET selected (AMYLOID): SCAN_NACC002424_I10940754_Amyloid_PIB.nii
+[2026-03-05 13:24:00] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:24:00] INFO:     MRI shape: (192, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:29:11] INFO:     N4 bias field correction applied
+[2026-03-05 13:29:15] INFO:     PET shape: (192, 192, 47)
+[2026-03-05 13:29:31] INFO:     Registration converged: metric = -0.259233
+[2026-03-05 13:29:35] INFO:     Brain mask: 3,828,037 voxels
+[2026-03-05 13:29:40] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.2592
+[2026-03-05 13:29:41] INFO:   [10/500] NACC002616:
+[2026-03-05 13:29:41] INFO:     MRI selected (MPRAGE): SCAN_NACC002616_I10443132_Head_Accelerated_Sagittal_MPRAGE_MSV21.nii
+[2026-03-05 13:29:42] INFO:     PET selected (AMYLOID): SCAN_NACC002616_I10338426_4564_20230622-LM-00-OP_000_000.v_4i_21s_Amyloid_Florbetaben.nii
+[2026-03-05 13:29:42] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:29:42] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:33:11] INFO:     N4 bias field correction applied
+[2026-03-05 13:33:19] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 13:33:39] INFO:     Registration converged: metric = -0.507789
+[2026-03-05 13:33:41] INFO:     Brain mask: 3,690,463 voxels
+[2026-03-05 13:33:43] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.5078
+[2026-03-05 13:33:44] INFO: [10/500] Progress: 10 done | 0 errors | 0 weak-reg skipped | 0 tracer filtered
+[2026-03-05 13:33:44] INFO:   [11/500] NACC002727:
+[2026-03-05 13:33:44] INFO:     MRI selected (MPRAGE): SCAN_NACC002727_I10296132_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 13:33:44] INFO:     PET selected (AMYLOID): SCAN_NACC002727_I10942687_[BR-DY_CTAC]_Amyloid_Brain_Dyn.nii
+[2026-03-05 13:33:44] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:33:44] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:36:40] INFO:     N4 bias field correction applied
+[2026-03-05 13:36:46] INFO:     PET shape: (128, 128, 90)
+[2026-03-05 13:37:00] INFO:     Registration converged: metric = -0.619252
+[2026-03-05 13:37:02] INFO:     Brain mask: 3,985,293 voxels
+[2026-03-05 13:37:05] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.6193
+[2026-03-05 13:37:05] INFO:   [12/500] NACC002809:
+[2026-03-05 13:37:06] INFO:     MRI selected (T1): SCAN_NACC002809_I10398146_Accelerated_Sagittal_IR-FSPGR_MSV21.nii
+[2026-03-05 13:37:07] INFO:     PET selected (AMYLOID): SCAN_NACC002809_I10965942_Johnson_PiB_0-70_min.nii
+[2026-03-05 13:37:07] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:37:07] INFO:     MRI shape: (200, 256, 256), spacing: ['1.00', '1.05', '1.05'] mm
+[2026-03-05 13:39:27] INFO:     N4 bias field correction applied
+[2026-03-05 13:39:43] INFO:     PET shape: (360, 360, 109)
+[2026-03-05 13:40:03] INFO:     Registration converged: metric = -0.305460
+[2026-03-05 13:40:05] INFO:     Brain mask: 2,784,607 voxels
+[2026-03-05 13:40:07] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.3055
+[2026-03-05 13:40:07] INFO:   [13/500] NACC002871:
+[2026-03-05 13:40:08] INFO:     MRI selected (MPRAGE): SCAN_NACC002871_I10442369_Head_Accelerated_Sagittal_MPRAGE_MSV21.nii
+[2026-03-05 13:40:09] INFO:     PET selected (AMYLOID): SCAN_NACC002871_I10946183_3482-10094_20210601_Amyloid_Florbetaben-LM-00-OP_000_000.v_4i_21s.nii
+[2026-03-05 13:40:09] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:40:09] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:44:16] INFO:     N4 bias field correction applied
+[2026-03-05 13:44:24] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 13:44:45] INFO:     Registration converged: metric = -0.502494
+[2026-03-05 13:44:47] INFO:     Brain mask: 3,795,316 voxels
+[2026-03-05 13:44:54] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.5025
+[2026-03-05 13:44:54] INFO:   [14/500] NACC003007:
+[2026-03-05 13:44:54] INFO:     MRI selected (MPRAGE): SCAN_NACC003007_I10665528_Accelerated_Sagittal_MPRAGE.nii
+[2026-03-05 13:44:55] INFO:     PET selected (FDG): SCAN_NACC003007_I10946194_FDG.nii
+[2026-03-05 13:44:55] INFO:     Tracer group: FDG
+[2026-03-05 13:44:55] INFO:     MRI shape: (176, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:49:25] INFO:     N4 bias field correction applied
+[2026-03-05 13:49:31] INFO:     PET shape: (192, 192, 47)
+[2026-03-05 13:49:42] INFO:     Registration converged: metric = -0.600852
+[2026-03-05 13:49:44] INFO:     Brain mask: 3,583,452 voxels
+[2026-03-05 13:49:50] INFO:     OK — shape (160, 192, 160), tracer=FDG, reg_metric=-0.6009
+[2026-03-05 13:49:50] INFO:   [15/500] NACC003658:
+[2026-03-05 13:49:51] INFO:     MRI selected (MPRAGE): SCAN_NACC003658_I10443122_Head_Accelerated_Sagittal_MPRAGE_MSV21.nii
+[2026-03-05 13:49:51] INFO:     PET selected (AMYLOID): SCAN_NACC003658_I10667034_348210047_20230920-LM-00-OP_000_000.v_4i_21s_Amyloid_Florbetaben.nii
+[2026-03-05 13:49:51] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:49:51] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 13:55:46] INFO:     N4 bias field correction applied
+[2026-03-05 13:55:54] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 13:56:16] INFO:     Registration converged: metric = -0.402508
+[2026-03-05 13:56:18] INFO:     Brain mask: 3,664,706 voxels
+[2026-03-05 13:56:26] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4025
+[2026-03-05 13:56:26] INFO:   [16/500] NACC003669:
+[2026-03-05 13:56:26] INFO:     MRI selected (MPRAGE): SCAN_NACC003669_I11355172_Head_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 13:56:27] INFO:     PET selected (AMYLOID): SCAN_NACC003669_I11407514_PIB_PRR_AC_Images.nii
+[2026-03-05 13:56:27] INFO:     Tracer group: AMYLOID
+[2026-03-05 13:56:27] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:02:36] INFO:     N4 bias field correction applied
+[2026-03-05 14:03:03] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 14:03:31] INFO:     Registration converged: metric = -0.251301
+[2026-03-05 14:03:34] INFO:     Brain mask: 4,507,178 voxels
+[2026-03-05 14:03:46] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.2513
+[2026-03-05 14:03:46] INFO:   [17/500] NACC003864:
+[2026-03-05 14:03:47] INFO:     MRI selected (T1): SCAN_NACC003864_I10937081_Accelerated_Sag_IR-FSPGR_MSV21_.nii
+[2026-03-05 14:03:47] INFO:     PET selected (largest, tracer=None): SCAN_NACC003864_I10951736_4X5_MINUTES-_ZTE_MAC.nii
+[2026-03-05 14:03:47] INFO:     Tracer group: None
+[2026-03-05 14:03:47] INFO:     MRI shape: (196, 256, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:05:51] INFO:     N4 bias field correction applied
+[2026-03-05 14:05:58] INFO:     PET shape: (192, 192, 89)
+[2026-03-05 14:06:14] INFO:     Registration converged: metric = -0.425356
+[2026-03-05 14:06:16] INFO:     Brain mask: 3,551,329 voxels
+[2026-03-05 14:06:19] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.4254
+[2026-03-05 14:06:19] INFO:   [18/500] NACC004290:
+[2026-03-05 14:06:20] INFO:     MRI selected (MPRAGE): SCAN_NACC004290_I10914733_Head_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 14:06:20] INFO:     PET selected (AMYLOID): SCAN_NACC004290_I10940780_PIB_PRR_AC_Images.nii
+[2026-03-05 14:06:20] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:06:21] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:09:37] INFO:     N4 bias field correction applied
+[2026-03-05 14:10:08] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 14:10:32] INFO:     Registration converged: metric = -0.527226
+[2026-03-05 14:10:34] INFO:     Brain mask: 3,817,259 voxels
+[2026-03-05 14:10:37] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.5272
+[2026-03-05 14:10:38] INFO:   [19/500] NACC004873:
+[2026-03-05 14:10:39] INFO:     MRI selected (MPRAGE): SCAN_NACC004873_I10296210_MPRAGE_GRAPPA2_3D_dist_cor.nii
+[2026-03-05 14:10:39] INFO:     PET selected (AMYLOID): SCAN_NACC004873_I10941025_Amyloid_PIB.nii
+[2026-03-05 14:10:39] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:10:39] INFO:     MRI shape: (192, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:14:06] INFO:     N4 bias field correction applied
+[2026-03-05 14:14:13] INFO:     PET shape: (192, 192, 47)
+[2026-03-05 14:16:15] INFO:     Registration converged: metric = -0.253161
+[2026-03-05 14:16:16] INFO:     Brain mask: 3,420,474 voxels
+[2026-03-05 14:16:25] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.2532
+[2026-03-05 14:16:25] INFO:   [20/500] NACC004930:
+[2026-03-05 14:16:26] INFO:     MRI selected (MPRAGE): SCAN_NACC004930_I10665605_MSV21_MPRAGE.nii
+[2026-03-05 14:16:26] INFO:     PET selected (AMYLOID): SCAN_NACC004930_I11061219_MSV21_PET_ADNI_florbetapir_4x5min.nii
+[2026-03-05 14:16:26] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:16:26] INFO:     MRI shape: (192, 256, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:20:08] INFO:     N4 bias field correction applied
+[2026-03-05 14:20:16] INFO:     PET shape: (400, 400, 109)
+[2026-03-05 14:20:34] INFO:     Registration converged: metric = -0.479441
+[2026-03-05 14:20:35] INFO:     Brain mask: 4,380,739 voxels
+[2026-03-05 14:20:38] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4794
+[2026-03-05 14:20:38] INFO: [20/500] Progress: 20 done | 0 errors | 0 weak-reg skipped | 0 tracer filtered
+[2026-03-05 14:20:38] INFO:   [21/500] NACC005098:
+[2026-03-05 14:20:39] INFO:     MRI selected (MPRAGE): SCAN_NACC005098_I10360300_Head_Accelerated_Sagittal_MPRAGE_MSV21.nii
+[2026-03-05 14:20:40] INFO:     PET selected (AMYLOID): SCAN_NACC005098_I10312381_348210137_20230214-LM-00-OP_000_000.v_4i_21s_Amyloid_Florbetaben.nii
+[2026-03-05 14:20:40] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:20:40] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:24:39] INFO:     N4 bias field correction applied
+[2026-03-05 14:24:48] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 14:25:10] INFO:     Registration converged: metric = -0.555808
+[2026-03-05 14:25:12] INFO:     Brain mask: 4,278,556 voxels
+[2026-03-05 14:25:19] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.5558
+[2026-03-05 14:25:19] INFO:   [22/500] NACC005127:
+[2026-03-05 14:25:19] INFO:     MRI selected (MPRAGE): SCAN_NACC005127_I11225887_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 14:25:19] INFO:     PET selected (TAU): SCAN_NACC005127_I11232655_[BR-DY_CTAC]_AV1451_Brain_Dyn.nii
+[2026-03-05 14:25:19] INFO:     Tracer group: TAU
+[2026-03-05 14:25:20] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:29:25] INFO:     N4 bias field correction applied
+[2026-03-05 14:29:31] INFO:     PET shape: (128, 128, 90)
+[2026-03-05 14:29:44] INFO:     Registration converged: metric = -0.617366
+[2026-03-05 14:29:46] INFO:     Brain mask: 4,616,672 voxels
+[2026-03-05 14:29:53] INFO:     OK — shape (160, 192, 160), tracer=TAU, reg_metric=-0.6174
+[2026-03-05 14:29:53] INFO:   [23/500] NACC005154:
+[2026-03-05 14:29:53] INFO:     MRI selected (MPRAGE): SCAN_NACC005154_I11070743_Head_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 14:29:54] INFO:     PET selected (AMYLOID): SCAN_NACC005154_I11066624_PIB_short_PRR_AC_Images.nii
+[2026-03-05 14:29:54] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:29:54] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:34:35] INFO:     N4 bias field correction applied
+[2026-03-05 14:34:43] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 14:35:01] INFO:     Registration converged: metric = -0.432687
+[2026-03-05 14:35:03] INFO:     Brain mask: 4,810,483 voxels
+[2026-03-05 14:35:06] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4327
+[2026-03-05 14:35:06] INFO:   [24/500] NACC005284:
+[2026-03-05 14:35:06] INFO:     MRI selected (MPRAGE): SCAN_NACC005284_I11225837_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 14:35:06] INFO:     PET selected (TAU): SCAN_NACC005284_I11232639_[BR-DY_CTAC]_AV1451_Brain_Dyn.nii
+[2026-03-05 14:35:06] INFO:     Tracer group: TAU
+[2026-03-05 14:35:06] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:39:47] INFO:     N4 bias field correction applied
+[2026-03-05 14:39:52] INFO:     PET shape: (128, 128, 90)
+[2026-03-05 14:40:08] INFO:     Registration converged: metric = -0.619438
+[2026-03-05 14:40:10] INFO:     Brain mask: 4,346,971 voxels
+[2026-03-05 14:40:13] INFO:     OK — shape (160, 192, 160), tracer=TAU, reg_metric=-0.6194
+[2026-03-05 14:40:13] INFO:   [25/500] NACC005483:
+[2026-03-05 14:40:13] INFO:     MRI selected (MPRAGE): SCAN_NACC005483_I10661232_Head_Accelerated_Sagittal_MPRAGE_MSV21.nii
+[2026-03-05 14:40:14] INFO:     PET selected (AMYLOID): SCAN_NACC005483_I10338435_348210170_20220921-LM-00-OP_000_000.v_4i_21s_Amyloid_Florbetaben.nii
+[2026-03-05 14:40:14] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:40:14] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:44:24] INFO:     N4 bias field correction applied
+[2026-03-05 14:44:31] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 14:45:10] INFO:     Registration converged: metric = -0.088500
+[2026-03-05 14:45:11] INFO:     Brain mask: 4,523,295 voxels
+[2026-03-05 14:45:20] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.0885
+[2026-03-05 14:45:20] INFO:   [26/500] NACC005685:
+[2026-03-05 14:45:21] INFO:     MRI selected (MPRAGE): SCAN_NACC005685_I11093652_Head_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 14:45:22] INFO:     PET selected (AMYLOID): SCAN_NACC005685_I11105275_PIB_PRR_AC_Images.nii
+[2026-03-05 14:45:22] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:45:22] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:48:10] INFO:     N4 bias field correction applied
+[2026-03-05 14:48:34] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 14:49:03] INFO:     Registration converged: metric = -0.455284
+[2026-03-05 14:49:05] INFO:     Brain mask: 4,116,025 voxels
+[2026-03-05 14:49:09] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4553
+[2026-03-05 14:49:09] INFO:   [27/500] NACC006356:
+[2026-03-05 14:49:10] INFO:     MRI selected (T1): SCAN_NACC006356_I10937090_Accelerated_Sag_IR-FSPGR_MSV21_.nii
+[2026-03-05 14:49:11] INFO:     PET selected (largest, tracer=None): SCAN_NACC006356_I10949394_4X5_MINUTES-_ZTE_MAC.nii
+[2026-03-05 14:49:11] INFO:     Tracer group: None
+[2026-03-05 14:49:11] INFO:     MRI shape: (196, 256, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:51:18] INFO:     N4 bias field correction applied
+[2026-03-05 14:51:18] INFO:     PET shape: (192, 192, 89)
+[2026-03-05 14:51:39] INFO:     Registration converged: metric = -0.559716
+[2026-03-05 14:51:41] INFO:     Brain mask: 3,876,109 voxels
+[2026-03-05 14:51:45] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.5597
+[2026-03-05 14:51:45] INFO:   [28/500] NACC006507:
+[2026-03-05 14:51:45] INFO:     MRI selected (MPRAGE): SCAN_NACC006507_I11158494_Head_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 14:51:46] INFO:     PET selected (AMYLOID): SCAN_NACC006507_I11162577_PIB_short_PRR_AC_Images.nii
+[2026-03-05 14:51:46] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:51:46] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:55:34] INFO:     N4 bias field correction applied
+[2026-03-05 14:55:42] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 14:56:04] INFO:     Registration converged: metric = -0.487656
+[2026-03-05 14:56:05] INFO:     Brain mask: 3,409,510 voxels
+[2026-03-05 14:56:08] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4877
+[2026-03-05 14:56:08] INFO:   [29/500] NACC006788:
+[2026-03-05 14:56:08] INFO:     MRI selected (MPRAGE): SCAN_NACC006788_I10932660_MSV21_MPRAGE.nii
+[2026-03-05 14:56:09] INFO:     PET selected (AMYLOID): SCAN_NACC006788_I10949427_MSV21_PET_ADNI_florbetapir_4x5min.nii
+[2026-03-05 14:56:09] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:56:09] INFO:     MRI shape: (192, 256, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 14:58:57] INFO:     N4 bias field correction applied
+[2026-03-05 14:59:05] INFO:     PET shape: (400, 400, 109)
+[2026-03-05 14:59:30] INFO:     Registration converged: metric = -0.483939
+[2026-03-05 14:59:31] INFO:     Brain mask: 4,060,090 voxels
+[2026-03-05 14:59:35] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4839
+[2026-03-05 14:59:35] INFO:   [30/500] NACC006814:
+[2026-03-05 14:59:36] INFO:     MRI selected (MPRAGE): SCAN_NACC006814_I11226172_Head_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 14:59:37] INFO:     PET selected (AMYLOID): SCAN_NACC006814_I11226169_PIB_PRR_AC_Images.nii
+[2026-03-05 14:59:37] INFO:     Tracer group: AMYLOID
+[2026-03-05 14:59:37] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:04:49] INFO:     N4 bias field correction applied
+[2026-03-05 15:05:22] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 15:05:55] INFO:     Registration converged: metric = -0.557361
+[2026-03-05 15:05:58] INFO:     Brain mask: 4,510,768 voxels
+[2026-03-05 15:06:11] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.5574
+[2026-03-05 15:06:11] INFO: [30/500] Progress: 30 done | 0 errors | 0 weak-reg skipped | 0 tracer filtered
+[2026-03-05 15:06:11] INFO:   [31/500] NACC007144:
+[2026-03-05 15:06:11] INFO:     MRI selected (MPRAGE): SCAN_NACC007144_I11162579_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 15:06:12] INFO:     PET selected (largest, tracer=None): SCAN_NACC007144_I11162578_Short_no_filter.nii
+[2026-03-05 15:06:12] INFO:     Tracer group: None
+[2026-03-05 15:06:12] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:11:48] INFO:     N4 bias field correction applied
+[2026-03-05 15:11:59] INFO:     PET shape: (440, 440, 159)
+[2026-03-05 15:12:26] INFO:     Registration converged: metric = -0.466576
+[2026-03-05 15:12:29] INFO:     Brain mask: 4,387,862 voxels
+[2026-03-05 15:12:36] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.4666
+[2026-03-05 15:12:36] INFO:   [32/500] NACC007224:
+[2026-03-05 15:12:36] INFO:     MRI selected (MPRAGE): SCAN_NACC007224_I11226272_MPRAGE.nii
+[2026-03-05 15:12:36] INFO:     PET selected (largest, tracer=None): SCAN_NACC007224_I11305471_[BR-DY_CTAC_JP]_UH_CADRC_BRAIN.nii
+[2026-03-05 15:12:36] INFO:     Tracer group: None
+[2026-03-05 15:12:36] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:15:28] INFO:     N4 bias field correction applied
+[2026-03-05 15:15:34] INFO:     PET shape: (128, 128, 90)
+[2026-03-05 15:15:46] INFO:     Registration converged: metric = -0.552169
+[2026-03-05 15:15:48] INFO:     Brain mask: 3,555,255 voxels
+[2026-03-05 15:15:54] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.5522
+[2026-03-05 15:15:54] INFO:   [33/500] NACC008345:
+[2026-03-05 15:15:55] INFO:     MRI selected (MPRAGE): SCAN_NACC008345_I11295997_Head_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 15:15:55] INFO:     PET selected (AMYLOID): SCAN_NACC008345_I11323307_PIB_PRR_AC_Images.nii
+[2026-03-05 15:15:55] INFO:     Tracer group: AMYLOID
+[2026-03-05 15:15:56] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:20:02] INFO:     N4 bias field correction applied
+[2026-03-05 15:20:29] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 15:20:53] INFO:     Registration converged: metric = -0.460369
+[2026-03-05 15:20:55] INFO:     Brain mask: 4,304,284 voxels
+[2026-03-05 15:21:01] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.4604
+[2026-03-05 15:21:01] INFO:   [34/500] NACC008467:
+[2026-03-05 15:21:02] INFO:     MRI selected (T1): SCAN_NACC008467_I10396146_Accelerated_Sagittal_IR-FSPGR_SCAN_.nii
+[2026-03-05 15:21:02] INFO:     PET selected (largest, tracer=None): SCAN_NACC008467_I10458976_SCAN_dynamic.nii
+[2026-03-05 15:21:02] INFO:     Tracer group: None
+[2026-03-05 15:21:02] INFO:     MRI shape: (196, 256, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:23:13] INFO:     N4 bias field correction applied
+[2026-03-05 15:23:20] INFO:     PET shape: (192, 192, 89)
+[2026-03-05 15:23:37] INFO:     Registration converged: metric = -0.556637
+[2026-03-05 15:23:38] INFO:     Brain mask: 3,142,337 voxels
+[2026-03-05 15:23:40] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.5566
+[2026-03-05 15:23:40] INFO:   [35/500] NACC008987:
+[2026-03-05 15:23:41] INFO:     MRI selected (MPRAGE): SCAN_NACC008987_I10316864_MPRAGE_GRAPPA2_3D_dist_cor.nii
+[2026-03-05 15:23:41] INFO:     PET selected (AMYLOID): SCAN_NACC008987_I10940755_Amyloid_PIB.nii
+[2026-03-05 15:23:41] INFO:     Tracer group: AMYLOID
+[2026-03-05 15:23:41] INFO:     MRI shape: (192, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:26:34] INFO:     N4 bias field correction applied
+[2026-03-05 15:26:40] INFO:     PET shape: (192, 192, 47)
+[2026-03-05 15:26:50] INFO:     Registration converged: metric = -0.274047
+[2026-03-05 15:26:51] INFO:     Brain mask: 3,575,634 voxels
+[2026-03-05 15:26:54] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.2740
+[2026-03-05 15:26:54] INFO:   [36/500] NACC009746:
+[2026-03-05 15:26:55] INFO:     MRI selected (MPRAGE): SCAN_NACC009746_I11309591_MPRAGE_ADNI4_1mm.nii
+[2026-03-05 15:26:55] INFO:     PET selected (largest, tracer=None): SCAN_NACC009746_I11001942_PET_Brain.nii
+[2026-03-05 15:26:55] INFO:     Tracer group: None
+[2026-03-05 15:26:55] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:30:06] INFO:     N4 bias field correction applied
+[2026-03-05 15:30:15] INFO:     PET shape: (440, 440, 159)
+[2026-03-05 15:30:43] INFO:     Registration converged: metric = -0.487953
+[2026-03-05 15:30:44] INFO:     Brain mask: 3,640,193 voxels
+[2026-03-05 15:30:46] INFO:     OK — shape (160, 192, 160), tracer=None, reg_metric=-0.4880
+[2026-03-05 15:30:46] INFO:   [37/500] NACC010405:
+[2026-03-05 15:30:47] INFO:     MRI selected (MPRAGE): SCAN_NACC010405_I11288685_Head_Accelerated_Sagittal_MPRAGE_MSV21.nii
+[2026-03-05 15:30:47] INFO:     PET selected (AMYLOID): SCAN_NACC010405_I11324149_348210223_20230905-LM-00-OP_000_000.v_4i_21s_Amyloid_Florbetaben.nii
+[2026-03-05 15:30:47] INFO:     Tracer group: AMYLOID
+[2026-03-05 15:30:48] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:33:17] INFO:     N4 bias field correction applied
+[2026-03-05 15:33:25] INFO:     PET shape: (344, 344, 127)
+[2026-03-05 15:33:45] INFO:     Registration converged: metric = -0.512583
+[2026-03-05 15:33:46] INFO:     Brain mask: 4,810,098 voxels
+[2026-03-05 15:33:49] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.5126
+[2026-03-05 15:33:49] INFO:   [38/500] NACC010592:
+[2026-03-05 15:33:49] INFO:     MRI selected (MPRAGE): SCAN_NACC010592_I10308370_Accelerated_Sagittal_MPRAGE_MSV21_.nii
+[2026-03-05 15:33:50] INFO:     PET selected (AMYLOID): SCAN_NACC010592_I10946190_[BR-DY_CTAC]_Amyloid_Brain_Dyn.nii
+[2026-03-05 15:33:50] INFO:     Tracer group: AMYLOID
+[2026-03-05 15:33:50] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-05 15:37:24] INFO:     N4 bias field correction applied
+[2026-03-05 15:37:30] INFO:     PET shape: (128, 128, 90)
+[2026-03-05 15:37:39] INFO:     Registration converged: metric = -0.600054
+[2026-03-05 15:37:40] INFO:     Brain mask: 4,455,185 voxels
+[2026-03-05 15:37:43] INFO:     OK — shape (160, 192, 160), tracer=AMYLOID, reg_metric=-0.6001
+[2026-03-05 15:37:43] INFO:   [39/500] NACC010716:
+[2026-03-05 15:37:43] INFO:     MRI selected (MPRAGE): SCAN_NACC010716_I11399043_MPRAGE_ADNI4_1mm.nii
+[2026-03-05 15:37:44] INFO:     PET selected (largest, tracer=None): SCAN_NACC010716_I11022961_PET_Brain.nii
+[2026-03-05 15:37:44] INFO:     Tracer group: None
+[2026-03-05 15:37:44] INFO:     MRI shape: (208, 240, 256), spacing: ['1.00', '1.00', '1.00'] mm
+[2026-03-06 06:09:26] INFO:     N4 bias field correction applied
+[2026-03-06 06:09:26] INFO:     ERROR: No such file or no access: 'D:/NACC_Matched_Pairs/NACC010716/PET/SCAN_NACC010716_I11022961_PET_Brain/SCAN_NACC010716_I11022961_PET_Brain.nii'
+[2026-03-06 06:09:26] INFO: Traceback (most recent call last):
+  File "C:\Users\kdesh\AppData\Local\Programs\Python\Python311\Lib\site-packages\nibabel\loadsave.py", line 101, in load
+    stat_result = os.stat(filename)
+                  ^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'D:/NACC_Matched_Pairs/NACC010716/PET/SCAN_NACC010716_I11022961_PET_Brain/SCAN_NACC010716_I11022961_PET_Brain.nii'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kdesh\OneDrive\Documents\Year 4\Implementation\Data Preprocessing\fixing_size.py", line 662, in run_pipeline
+    pet_sitk_img, pet_data_raw, _ = self._nifti_to_sitk(pet_nifti)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kdesh\OneDrive\Documents\Year 4\Implementation\Data Preprocessing\fixing_size.py", line 208, in _nifti_to_sitk
+    nib_img = nib.load(nifti_path)
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kdesh\AppData\Local\Programs\Python\Python311\Lib\site-packages\nibabel\loadsave.py", line 103, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: 'D:/NACC_Matched_Pairs/NACC010716/PET/SCAN_NACC010716_I11022961_PET_Brain/SCAN_NACC010716_I11022961_PET_Brain.nii'
+
+[2026-03-06 06:09:26] INFO:   [40/500] NACC010780:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [41/500] NACC011736:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [42/500] NACC011747:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [43/500] NACC011852:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [44/500] NACC011922:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [45/500] NACC012224:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [46/500] NACC012365:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [47/500] NACC012520:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [48/500] NACC013705:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [49/500] NACC014148:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [50/500] NACC014411:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [51/500] NACC014933:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [52/500] NACC015172:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [53/500] NACC015412:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [54/500] NACC015483:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [55/500] NACC015587:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [56/500] NACC016284:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [57/500] NACC017417:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [58/500] NACC017435:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [59/500] NACC017449:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [60/500] NACC017793:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [61/500] NACC018056:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [62/500] NACC018607:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [63/500] NACC018825:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [64/500] NACC019472:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [65/500] NACC019486:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [66/500] NACC019767:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [67/500] NACC020055:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [68/500] NACC020086:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [69/500] NACC020387:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [70/500] NACC020663:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [71/500] NACC020803:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [72/500] NACC021004:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [73/500] NACC021724:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [74/500] NACC021897:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [75/500] NACC022503:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [76/500] NACC022512:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [77/500] NACC022880:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [78/500] NACC023040:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [79/500] NACC023666:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [80/500] NACC023832:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [81/500] NACC024233:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [82/500] NACC024785:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [83/500] NACC025724:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [84/500] NACC026499:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [85/500] NACC026591:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [86/500] NACC026812:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [87/500] NACC027453:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [88/500] NACC027913:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [89/500] NACC027962:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [90/500] NACC028721:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [91/500] NACC029134:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [92/500] NACC029196:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [93/500] NACC029266:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [94/500] NACC030158:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [95/500] NACC030766:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [96/500] NACC031011:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [97/500] NACC031104:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [98/500] NACC031396:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [99/500] NACC031831:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [100/500] NACC032047:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [101/500] NACC032642:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [102/500] NACC032880:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [103/500] NACC034272:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [104/500] NACC035075:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [105/500] NACC035328:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [106/500] NACC035351:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [107/500] NACC035535:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [108/500] NACC035822:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [109/500] NACC035978:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [110/500] NACC036524:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [111/500] NACC036548:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [112/500] NACC036551:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [113/500] NACC037128:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [114/500] NACC037194:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [115/500] NACC037498:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [116/500] NACC038384:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [117/500] NACC038569:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [118/500] NACC038688:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [119/500] NACC038977:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [120/500] NACC039045:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [121/500] NACC040463:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [122/500] NACC042068:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [123/500] NACC042287:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [124/500] NACC042398:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [125/500] NACC042821:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [126/500] NACC043290:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [127/500] NACC043358:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [128/500] NACC043705:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [129/500] NACC044192:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [130/500] NACC045514:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [131/500] NACC045767:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [132/500] NACC046147:
+[2026-03-06 06:09:26] INFO:     No MRI found, skipping
+[2026-03-06 06:09:26] INFO:   [133/500] NACC046882:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [134/500] NACC046999:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [135/500] NACC047734:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [136/500] NACC048324:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [137/500] NACC048791:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [138/500] NACC049034:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [139/500] NACC049549:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [140/500] NACC049707:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [141/500] NACC049747:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [142/500] NACC049749:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [143/500] NACC050804:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [144/500] NACC050985:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [145/500] NACC051092:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [146/500] NACC051101:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [147/500] NACC051134:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [148/500] NACC051920:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [149/500] NACC053192:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [150/500] NACC054330:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [151/500] NACC054446:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [152/500] NACC054545:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [153/500] NACC055376:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [154/500] NACC057843:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [155/500] NACC059011:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [156/500] NACC059280:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [157/500] NACC059464:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [158/500] NACC060732:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [159/500] NACC062805:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [160/500] NACC062943:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [161/500] NACC063371:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [162/500] NACC063712:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [163/500] NACC064042:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [164/500] NACC064280:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [165/500] NACC064299:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [166/500] NACC065074:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [167/500] NACC065206:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [168/500] NACC065526:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [169/500] NACC065770:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [170/500] NACC065953:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [171/500] NACC066445:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [172/500] NACC067115:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [173/500] NACC067836:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [174/500] NACC067929:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [175/500] NACC068284:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [176/500] NACC068356:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [177/500] NACC068902:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [178/500] NACC069702:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [179/500] NACC070355:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [180/500] NACC070756:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [181/500] NACC071502:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [182/500] NACC071957:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [183/500] NACC072013:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [184/500] NACC072218:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [185/500] NACC072542:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [186/500] NACC073296:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [187/500] NACC074386:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [188/500] NACC075286:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [189/500] NACC077291:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [190/500] NACC078090:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [191/500] NACC078406:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [192/500] NACC078566:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [193/500] NACC079008:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [194/500] NACC079355:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [195/500] NACC079528:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [196/500] NACC079754:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [197/500] NACC079826:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [198/500] NACC080511:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [199/500] NACC080752:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [200/500] NACC081032:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [201/500] NACC081203:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [202/500] NACC081776:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [203/500] NACC081972:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [204/500] NACC082204:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [205/500] NACC083147:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [206/500] NACC083525:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [207/500] NACC084526:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [208/500] NACC084986:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [209/500] NACC085138:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [210/500] NACC085157:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [211/500] NACC085167:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [212/500] NACC085531:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [213/500] NACC085601:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [214/500] NACC085606:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [215/500] NACC085691:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [216/500] NACC085897:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [217/500] NACC086763:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [218/500] NACC087551:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [219/500] NACC087826:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [220/500] NACC088592:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [221/500] NACC090318:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [222/500] NACC090349:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [223/500] NACC091032:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [224/500] NACC091467:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [225/500] NACC092141:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [226/500] NACC092400:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [227/500] NACC092555:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [228/500] NACC093471:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [229/500] NACC094805:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [230/500] NACC094810:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [231/500] NACC095188:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [232/500] NACC096462:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [233/500] NACC096601:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [234/500] NACC096785:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [235/500] NACC097291:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [236/500] NACC098831:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [237/500] NACC099932:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [238/500] NACC100268:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [239/500] NACC100386:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [240/500] NACC101181:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [241/500] NACC101603:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [242/500] NACC101618:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [243/500] NACC101834:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [244/500] NACC102234:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [245/500] NACC102670:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [246/500] NACC102803:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [247/500] NACC102944:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [248/500] NACC104377:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [249/500] NACC105128:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [250/500] NACC105542:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [251/500] NACC106478:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [252/500] NACC108027:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [253/500] NACC109036:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [254/500] NACC109251:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [255/500] NACC109520:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [256/500] NACC110026:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [257/500] NACC110093:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [258/500] NACC110349:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [259/500] NACC110527:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [260/500] NACC110881:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [261/500] NACC111234:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [262/500] NACC111323:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [263/500] NACC111695:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [264/500] NACC112865:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [265/500] NACC113435:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [266/500] NACC113481:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [267/500] NACC113793:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [268/500] NACC114118:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [269/500] NACC114199:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [270/500] NACC114597:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [271/500] NACC114619:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [272/500] NACC114717:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [273/500] NACC115375:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [274/500] NACC115382:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [275/500] NACC115432:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [276/500] NACC115599:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [277/500] NACC115862:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [278/500] NACC116681:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [279/500] NACC117679:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [280/500] NACC117764:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [281/500] NACC119068:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [282/500] NACC119443:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [283/500] NACC119713:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [284/500] NACC120216:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [285/500] NACC120284:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [286/500] NACC120572:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [287/500] NACC120707:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [288/500] NACC121460:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [289/500] NACC123237:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [290/500] NACC123300:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [291/500] NACC123598:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [292/500] NACC125499:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [293/500] NACC126680:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [294/500] NACC126774:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [295/500] NACC126957:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [296/500] NACC127119:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [297/500] NACC127404:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [298/500] NACC128073:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [299/500] NACC128448:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [300/500] NACC129264:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [301/500] NACC129306:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [302/500] NACC130421:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [303/500] NACC131035:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [304/500] NACC132379:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [305/500] NACC132613:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [306/500] NACC133499:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [307/500] NACC133558:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [308/500] NACC133780:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [309/500] NACC134411:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [310/500] NACC136408:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [311/500] NACC136622:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [312/500] NACC136807:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [313/500] NACC137521:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [314/500] NACC138180:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [315/500] NACC138439:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [316/500] NACC138925:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [317/500] NACC139587:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [318/500] NACC140019:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [319/500] NACC140421:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [320/500] NACC140940:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [321/500] NACC141487:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [322/500] NACC141809:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [323/500] NACC142127:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [324/500] NACC142180:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [325/500] NACC143208:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [326/500] NACC143450:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [327/500] NACC143674:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [328/500] NACC144118:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [329/500] NACC144796:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [330/500] NACC145236:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [331/500] NACC145685:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [332/500] NACC146210:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [333/500] NACC146294:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [334/500] NACC147135:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [335/500] NACC147464:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [336/500] NACC148143:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [337/500] NACC148288:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [338/500] NACC149644:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [339/500] NACC149999:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [340/500] NACC150108:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [341/500] NACC150150:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [342/500] NACC150247:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [343/500] NACC150448:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [344/500] NACC150768:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [345/500] NACC150787:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [346/500] NACC152113:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [347/500] NACC153111:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [348/500] NACC153177:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [349/500] NACC153868:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [350/500] NACC154455:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [351/500] NACC154739:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [352/500] NACC155205:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [353/500] NACC155271:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [354/500] NACC155850:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [355/500] NACC157142:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [356/500] NACC157199:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [357/500] NACC158231:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [358/500] NACC158967:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [359/500] NACC160145:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [360/500] NACC160151:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [361/500] NACC160765:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [362/500] NACC160874:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [363/500] NACC161404:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [364/500] NACC161833:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [365/500] NACC162493:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [366/500] NACC163014:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [367/500] NACC163716:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [368/500] NACC164023:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [369/500] NACC164269:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [370/500] NACC164649:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [371/500] NACC165003:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [372/500] NACC165077:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [373/500] NACC165089:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [374/500] NACC165138:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [375/500] NACC165450:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [376/500] NACC165743:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [377/500] NACC166064:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [378/500] NACC166154:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [379/500] NACC166446:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [380/500] NACC166682:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [381/500] NACC167534:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [382/500] NACC168349:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [383/500] NACC168973:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [384/500] NACC169236:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [385/500] NACC169476:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [386/500] NACC169557:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [387/500] NACC169752:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [388/500] NACC169897:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [389/500] NACC170026:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [390/500] NACC170509:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [391/500] NACC170975:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [392/500] NACC171242:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [393/500] NACC172611:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [394/500] NACC172692:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [395/500] NACC172723:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [396/500] NACC173261:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [397/500] NACC173465:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [398/500] NACC173968:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [399/500] NACC174448:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [400/500] NACC175200:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [401/500] NACC175328:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [402/500] NACC175382:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [403/500] NACC175513:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [404/500] NACC175949:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [405/500] NACC176004:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [406/500] NACC176148:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [407/500] NACC176813:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [408/500] NACC177402:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [409/500] NACC177530:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [410/500] NACC178052:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [411/500] NACC178264:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [412/500] NACC178359:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [413/500] NACC178507:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [414/500] NACC179528:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [415/500] NACC179707:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [416/500] NACC180186:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [417/500] NACC181217:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [418/500] NACC181536:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [419/500] NACC181717:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [420/500] NACC182485:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [421/500] NACC182830:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [422/500] NACC182953:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [423/500] NACC182966:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [424/500] NACC183075:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [425/500] NACC183220:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [426/500] NACC184180:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [427/500] NACC184302:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [428/500] NACC185187:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [429/500] NACC185257:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [430/500] NACC186133:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [431/500] NACC186579:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [432/500] NACC186887:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [433/500] NACC186927:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [434/500] NACC187334:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [435/500] NACC188121:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [436/500] NACC188278:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [437/500] NACC188880:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [438/500] NACC189092:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [439/500] NACC189119:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [440/500] NACC189332:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [441/500] NACC189337:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [442/500] NACC190052:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [443/500] NACC190138:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [444/500] NACC191529:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [445/500] NACC191677:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [446/500] NACC191873:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [447/500] NACC193111:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [448/500] NACC193149:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [449/500] NACC193478:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [450/500] NACC193562:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [451/500] NACC193884:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [452/500] NACC194028:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [453/500] NACC194390:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [454/500] NACC194490:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [455/500] NACC195168:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [456/500] NACC195850:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [457/500] NACC196769:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [458/500] NACC196810:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [459/500] NACC196833:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [460/500] NACC197214:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [461/500] NACC197501:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [462/500] NACC197769:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [463/500] NACC197773:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [464/500] NACC197942:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [465/500] NACC198519:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [466/500] NACC198905:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [467/500] NACC199105:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [468/500] NACC199695:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [469/500] NACC200405:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [470/500] NACC200827:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [471/500] NACC200986:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [472/500] NACC201267:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [473/500] NACC201415:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [474/500] NACC201439:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [475/500] NACC201603:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [476/500] NACC201987:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [477/500] NACC202177:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [478/500] NACC203252:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [479/500] NACC204078:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [480/500] NACC205110:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [481/500] NACC205338:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [482/500] NACC208638:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [483/500] NACC209417:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [484/500] NACC209960:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [485/500] NACC209971:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [486/500] NACC210246:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [487/500] NACC210475:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [488/500] NACC210936:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [489/500] NACC212087:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [490/500] NACC212269:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [491/500] NACC212278:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [492/500] NACC212499:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [493/500] NACC212969:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [494/500] NACC212979:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [495/500] NACC212981:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [496/500] NACC213181:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [497/500] NACC213239:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [498/500] NACC213657:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [499/500] NACC214609:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO:   [500/500] NACC215745:
+[2026-03-06 06:09:27] INFO:     No MRI found, skipping
+[2026-03-06 06:09:27] INFO: 
+[2026-03-06 06:09:27] INFO: Step 3 complete: 38 patients preprocessed
+[2026-03-06 06:09:27] INFO: 
+[2026-03-06 06:09:27] INFO: ==========================================================================================
+[2026-03-06 06:09:27] INFO: PIPELINE COMPLETE
+[2026-03-06 06:09:27] INFO: ==========================================================================================
+[2026-03-06 06:09:27] INFO: 
+[2026-03-06 06:09:27] INFO: Summary:
+[2026-03-06 06:09:27] INFO:    - Patients processed:            500
+[2026-03-06 06:09:27] INFO:    - ZIP files extracted:            234
+[2026-03-06 06:09:27] INFO:    - macOS resource forks skipped:   2513
+[2026-03-06 06:09:27] INFO:    - DICOM to NIfTI:                 2512
+[2026-03-06 06:09:27] INFO:    - Registered + preprocessed:      38
+[2026-03-06 06:09:27] INFO:    - Weak registrations EXCLUDED:    0
+[2026-03-06 06:09:27] INFO:    - Tracer-filtered (not saved):    0
+[2026-03-06 06:09:27] INFO:    - Missing MRI:                    461
+[2026-03-06 06:09:27] INFO:    - Missing PET:                    0
+[2026-03-06 06:09:27] INFO:    - Errors:                         1
+[2026-03-06 06:09:27] INFO:    - Output shape:                   (160, 192, 160)
+[2026-03-06 06:09:27] INFO: 
+[2026-03-06 06:09:27] INFO: Output: D:\NACC_Matched_Pairs_500_Preprocessed
+[2026-03-06 06:09:27] INFO: Log:    quick_test_registered_log_500.txt
+[2026-03-06 06:09:27] INFO: End Time: 2026-03-06 06:09:27
+[2026-03-06 06:09:27] INFO: ==========================================================================================
