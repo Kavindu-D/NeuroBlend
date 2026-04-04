@@ -287,7 +287,7 @@ class QuickTestPreprocessor:
         self.log("=" * 90)
         self.log(f"Processing first {self.num_patients} patients")
         self.log(f"Target shape: {TARGET_SHAPE}")
-        self.log(f"Start Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        self.log(f"Start Time: {datetime.now().strtime('%Y-%m-%d %H:%M:%S')}")
         self.log("")
 
         all_patients = sorted([d for d in os.listdir(self.input_base)
